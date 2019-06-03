@@ -52,15 +52,15 @@ public class Principal extends javax.swing.JFrame {
         rb_4 = new javax.swing.JRadioButton();
         btnAceptar = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jButton1 = new javax.swing.JButton();
-        jTextField3 = new javax.swing.JTextField();
+        variable_1 = new javax.swing.JTextField();
+        variable_2 = new javax.swing.JTextField();
+        sumar = new javax.swing.JRadioButton();
+        restar = new javax.swing.JRadioButton();
+        multiplicar = new javax.swing.JRadioButton();
+        dividir = new javax.swing.JRadioButton();
+        potencia = new javax.swing.JRadioButton();
+        btnRealizar = new javax.swing.JButton();
+        resultado = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -83,25 +83,25 @@ public class Principal extends javax.swing.JFrame {
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("ejercicio 1"));
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        variable_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                variable_1ActionPerformed(evt);
             }
         });
 
-        jRadioButton1.setText("Sumar");
+        sumar.setText("Sumar");
 
-        jRadioButton2.setText("Restar");
+        restar.setText("Restar");
 
-        jRadioButton3.setText("Multiplicar");
+        multiplicar.setText("Multiplicar");
 
-        jRadioButton4.setText("Dividir");
+        dividir.setText("Dividir");
 
-        jRadioButton5.setText("Potencia");
+        potencia.setText("Potencia");
 
-        jButton1.setText("REALIZAR OPERACION");
+        btnRealizar.setText("REALIZAR OPERACION");
 
-        jTextField3.setText("Resulado");
+        resultado.setText("Resulado");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -110,39 +110,39 @@ public class Principal extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField2)
-                    .addComponent(jRadioButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jRadioButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jRadioButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jRadioButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jRadioButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
-                    .addComponent(jTextField3)
-                    .addComponent(jTextField1))
+                    .addComponent(variable_2)
+                    .addComponent(sumar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(restar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(multiplicar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(dividir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(potencia, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnRealizar, javax.swing.GroupLayout.DEFAULT_SIZE, 437, Short.MAX_VALUE)
+                    .addComponent(resultado)
+                    .addComponent(variable_1))
                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(variable_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(variable_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton1)
+                .addComponent(sumar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton2)
+                .addComponent(restar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton3)
+                .addComponent(multiplicar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton4)
+                .addComponent(dividir)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton5)
+                .addComponent(potencia)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1)
+                .addComponent(btnRealizar)
                 .addGap(18, 18, 18)
-                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(42, Short.MAX_VALUE))
+                .addComponent(resultado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -216,9 +216,9 @@ public class Principal extends javax.swing.JFrame {
        }
     }//GEN-LAST:event_btnAceptarActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void variable_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_variable_1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_variable_1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -257,20 +257,20 @@ public class Principal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAceptar;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnRealizar;
+    private javax.swing.JRadioButton dividir;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
+    private javax.swing.JRadioButton multiplicar;
+    private javax.swing.JRadioButton potencia;
     private javax.swing.JRadioButton rb_1;
     private javax.swing.JRadioButton rb_2;
     private javax.swing.JRadioButton rb_3;
     private javax.swing.JRadioButton rb_4;
+    private javax.swing.JRadioButton restar;
+    private javax.swing.JTextField resultado;
+    private javax.swing.JRadioButton sumar;
+    private javax.swing.JTextField variable_1;
+    private javax.swing.JTextField variable_2;
     // End of variables declaration//GEN-END:variables
 }

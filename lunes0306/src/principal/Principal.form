@@ -135,15 +135,15 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jRadioButton1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jRadioButton2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jRadioButton3" max="32767" attributes="0"/>
-                          <Component id="jRadioButton4" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jRadioButton5" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jButton1" alignment="0" pref="437" max="32767" attributes="0"/>
-                          <Component id="jTextField3" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="variable_2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="sumar" alignment="0" max="32767" attributes="0"/>
+                          <Component id="restar" alignment="0" max="32767" attributes="0"/>
+                          <Component id="multiplicar" max="32767" attributes="0"/>
+                          <Component id="dividir" alignment="0" max="32767" attributes="0"/>
+                          <Component id="potencia" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnRealizar" alignment="0" pref="437" max="32767" attributes="0"/>
+                          <Component id="resultado" alignment="0" max="32767" attributes="0"/>
+                          <Component id="variable_1" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -153,67 +153,67 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                      <Component id="variable_1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                      <Component id="variable_2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                      <Component id="sumar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                      <Component id="restar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                      <Component id="multiplicar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
+                      <Component id="dividir" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jRadioButton5" min="-2" max="-2" attributes="0"/>
+                      <Component id="potencia" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnRealizar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jTextField3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                      <Component id="resultado" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JTextField" name="jTextField1">
+            <Component class="javax.swing.JTextField" name="variable_1">
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="variable_1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField2">
+            <Component class="javax.swing.JTextField" name="variable_2">
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+            <Component class="javax.swing.JRadioButton" name="sumar">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Sumar"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+            <Component class="javax.swing.JRadioButton" name="restar">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Restar"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+            <Component class="javax.swing.JRadioButton" name="multiplicar">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Multiplicar"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+            <Component class="javax.swing.JRadioButton" name="dividir">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Dividir"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+            <Component class="javax.swing.JRadioButton" name="potencia">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Potencia"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="jButton1">
+            <Component class="javax.swing.JButton" name="btnRealizar">
               <Properties>
                 <Property name="text" type="java.lang.String" value="REALIZAR OPERACION"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField3">
+            <Component class="javax.swing.JTextField" name="resultado">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Resulado"/>
               </Properties>
